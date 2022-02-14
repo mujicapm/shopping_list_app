@@ -56,10 +56,39 @@ class ViewController: UIViewController {
         
         if let description = input[0] {
             if let quantity = input[1] {
-                shoppingItems = shoppingItems! + "\n\(quantity)x \(description)"
+                if validate(input) {
+                    shoppingItems = shoppingItems! + "\n\(quantity)x \(description)"
+                } else {
+                    let message = "Your input of \nDescription: \(description) \nQuantity: \(quantity) \nis invalid"
+                    let title = "Text Input"
+                    let alertController =
+                        UIAlertController(title: title,
+                                          message: message,
+                                          preferredStyle: .alert)
+                    
+                    // Create the action.
+                    let cancelAction =
+                        UIAlertAction(title: "OK",
+                                      style: .cancel,
+                                      handler: nil)
+                    alertController.addAction(cancelAction)
+                    present(alertController,
+                            animated: true,
+                            completion: nil)
+                }
+                
             }
         }
         updateShoppingListView()
+    }
+    
+    func validate(_ input: [Int:String]) -> Bool {
+        if ((input[0] != "") && (input [1] != "")) {
+            let quantityValidation = input [1]!
+            let result = quantityValidation.range(of: "^[0-9]+$", options: .regularExpression) != nil
+            return (result)
+        }
+        return false
     }
     
 }

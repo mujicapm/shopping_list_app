@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A7BAFA1B-1EF7-4AF4-8451-3D666BC1871B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DB768A0C-AAAB-4272-85FC-02023F6D1DCD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "shopping_list_app/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "validate(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5AA625AB-C801-46FA-8253-C4E75E1E7D77"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "shopping_list_app/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "addItemAction(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5AA625AB-C801-46FA-8253-C4E75E1E7D77 - cc0487a3b091d797"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "shopping_list_app.ViewController.addItemAction(__C.UIButton) -&gt; ()"
+                  moduleName = "shopping_list_app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mmujica-parodi/Library/Mobile%20Documents/com~apple~CloudDocs/Documents/xcode/shopping_list_app/shopping_list_app/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "1165">
+               </Location>
+               <Location
+                  uuid = "5AA625AB-C801-46FA-8253-C4E75E1E7D77 - cc0487a3b091d797"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "shopping_list_app.ViewController.addItemAction(__C.UIButton) -&gt; ()"
+                  moduleName = "shopping_list_app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mmujica-parodi/Library/Mobile%20Documents/com~apple~CloudDocs/Documents/xcode/shopping_list_app/shopping_list_app/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "1248">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1835A420-F444-4A91-B376-79A6033844D2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "shopping_list_app/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "validate(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
