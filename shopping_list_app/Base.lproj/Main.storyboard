@@ -17,16 +17,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="tuj-42-HCr">
-                                <rect key="frame" x="27.333333333333343" y="86" width="317" height="85"/>
+                                <rect key="frame" x="27.333333333333343" y="86" width="335.33333333333326" height="85"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Shopping List" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tjy-eN-nEt">
-                                        <rect key="frame" x="58" y="0.0" width="201" height="30"/>
+                                        <rect key="frame" x="67.333333333333343" y="0.0" width="201.00000000000003" height="30"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="61" translatesAutoresizingMaskIntoConstraints="NO" id="OIK-Qx-zVg">
-                                        <rect key="frame" x="0.0" y="55" width="317" height="30"/>
+                                        <rect key="frame" x="9.3333333333333428" y="55" width="317" height="30"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jlf-i6-VzZ">
                                                 <rect key="frame" x="0.0" y="0.0" width="65" height="30"/>
@@ -55,6 +55,9 @@
                                         </subviews>
                                     </stackView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="OIK-Qx-zVg" firstAttribute="centerX" secondItem="tuj-42-HCr" secondAttribute="centerX" id="Hto-BT-Ykq"/>
+                                </constraints>
                             </stackView>
                             <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Quantity" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8YW-xy-rja">
                                 <rect key="frame" x="168" y="257" width="200" height="34"/>
@@ -106,6 +109,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BMt-tT-vVk" secondAttribute="trailing" constant="22" id="4j9-x7-dWQ"/>
                             <constraint firstItem="Tfg-CP-RAZ" firstAttribute="trailing" secondItem="8YW-xy-rja" secondAttribute="trailing" id="8YA-he-yzx"/>
                             <constraint firstItem="HdG-Ua-nCz" firstAttribute="top" secondItem="QWf-aC-O4v" secondAttribute="bottom" constant="27.666666666666657" id="DWb-PP-meg"/>
+                            <constraint firstItem="tuj-42-HCr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Epc-6U-gbr"/>
                             <constraint firstItem="QWf-aC-O4v" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="37" id="G7o-ow-XgE"/>
                             <constraint firstItem="HdG-Ua-nCz" firstAttribute="leading" secondItem="QWf-aC-O4v" secondAttribute="leading" id="Gjc-HW-zpY"/>
                             <constraint firstItem="Tfg-CP-RAZ" firstAttribute="top" secondItem="8YW-xy-rja" secondAttribute="bottom" constant="8" symbolic="YES" id="GqJ-S4-rbV"/>
